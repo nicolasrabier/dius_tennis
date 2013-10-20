@@ -1,7 +1,7 @@
-dius_tennis
+tennis_exercise
 ===========
 
-DiUS is hosting a tennis tournament. To aid with this, we're developing a scoring system.
+French Open is hosting a tennis tournament. To aid with this, we're developing a scoring system.
 
 The scoring system for tennis works like this.
 
