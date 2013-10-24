@@ -36,7 +36,8 @@ public class NormalScorer {
 
 	public boolean isGameFinished() {
 		int delta = player1.getPoint() - player2.getPoint();
-		if ((delta >= POINT_DIFF || delta <= (POINT_DIFF * -1)) && (player1.getPoint() > NORMAL_DEUCE_SCORER_LIMIT || player2.getPoint() > NORMAL_DEUCE_SCORER_LIMIT)) {
+		if ((delta >= POINT_DIFF || delta <= (POINT_DIFF * -1))
+				&& (player1.getPoint() > NORMAL_DEUCE_SCORER_LIMIT || player2.getPoint() > NORMAL_DEUCE_SCORER_LIMIT)) {
 			return true;
 		}
 		return false;
